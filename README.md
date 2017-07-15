@@ -1,5 +1,5 @@
 # Auto TOTP CAS Login
-[![N|Solid](https://secure.gravatar.com/avatar/7273c58dc017eec83667b50742ff6368?s=80)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://secure.gravatar.com/avatar/7273c58dc017eec83667b50742ff6368?s=80)](https://www.linkedin.com/in/amitasviper/)
 
 A chrome extension which generates the Time based one time password from the auth token and injects that in the login form and submits. This is a chrome extension which can be installed from the source.
 
