@@ -34,7 +34,6 @@ function getToken(key_string) {
     var offset = hex2dec(hmac.substring(hmac.length - 1));
     var otp = (hex2dec(hmac.substr(offset * 2, 8)) & hex2dec('7fffffff')) + '';
     otp = (otp).substr(otp.length - 6, 6);
-    console.log(otp);
     return otp;
 }
 

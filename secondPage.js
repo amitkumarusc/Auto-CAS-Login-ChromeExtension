@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.getElementById('save').addEventListener('click', function (){
-	console.log('bfcgfchgcgh');
 	var username = document.getElementById("beagle_username").value;
 	var token_code = document.getElementById("beagle_token_code").value;
 
