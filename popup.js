@@ -6,7 +6,7 @@ function saveSettings(){
 	localStorage["beagle_token_code"] = token_code;
 
 	chrome.storage.sync.set({'beagle_username': username, 'beagle_token_code': token_code}, function() {
-      console.log('Settings saveddd');
+      console.log('Settings saved');
     });
 };
 
