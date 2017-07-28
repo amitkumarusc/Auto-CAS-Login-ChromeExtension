@@ -42,12 +42,11 @@ var password = document.getElementById('password');
 var button = document.getElementsByClassName('btn btn-submit btn-block')[0];
 
 chrome.storage.sync.get(['beagle_username', 'beagle_token_code'], function(items) {
+    var beagle_username = items['beagle_username'];
+    var beagle_token_code = items['beagle_token_code'];
+    var token = getToken(beagle_token_code.toUpperCase());
 
-      var beagle_username = items['beagle_username'];
-      var beagle_token_code = items['beagle_token_code'];
-      var token = getToken(beagle_token_code.toUpperCase());
-  
-      username.value = beagle_username;
-      password.value = token;
-      button.click();
-    });
+    username.value = beagle_username;
+    password.value = token;
+    button.click();
+});
