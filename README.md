@@ -13,6 +13,7 @@ A chrome extension which generates the Time based one time password from the aut
     $ cp manifest-copy.json   manifest.json
     ```
 3. Open `chrome://extensions/` in your chrome browser:
+4. Check `Developer mode` checkbox
 4. Click on `Load Unpacked extension` and give the local path of the repository you cloned in step 1.
 5. A small extenion icon will appear. Click on that icon and set your username and auth token and save the settings.
 6.  Open the website where you want to autologin.
